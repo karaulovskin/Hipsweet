@@ -1,0 +1,30 @@
+html, body {
+	font-family: Arial;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-width: 1120px;
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+	@extend %clearfix;
+}
+
+.section__title {
+	margin: 0 0 50px 0;
+	line-height: 1.125;
+}
+
+.section__title-head {
+	font-size: 65px;
+	@include malina();
+}
+
+.section__title-desc {
+	font-size: 15px;
+}
+
+

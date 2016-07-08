@@ -1,0 +1,65 @@
+.mainscreen {
+  background: -webkit-radial-gradient(left bottom, #E24246, #A4161C 90%);
+}
+
+.slider {
+  width: 100%;
+  height: 640px;
+}
+
+.slader__item {
+	position: relative;
+}
+
+.slader__box {
+	@extend %clearfix;
+}
+
+.slader__ingredients, .slader__product {
+	float: left;
+}
+
+.slader__ingredients {
+	width: 170px;
+	color: #fff;
+	padding: 85px 0 0 0;
+}
+
+.slader__ingredients-item:first-child {
+	margin: 0 0 200px 0;
+}
+
+.slader__product {
+	width: 490px;
+}
+
+.slader__description {
+	float: right;
+	width: 400px;
+	color: #fff;
+	padding: 20px 0 0 0;
+}
+
+.section__title-head--cupcake {
+	color: #fff;
+}
+
+.section__title-desc--cupcake {
+	color: #fff;
+}
+
+.slader__name {
+	position: absolute;
+    right: 0;
+    left: 0;
+    top: 35%;
+}
+
+.slader__name-text {
+	font-size: 150px;
+	color: #fff;
+	text-align: center;
+	opacity: .1;
+    text-transform: uppercase;
+	@include malina();
+}

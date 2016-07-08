@@ -1,0 +1,31 @@
+.tasty {
+	background: radial-gradient(at 85% 50%, #FEFFFF, #C8C8C8);
+	// background: url(../img/tasty/tasty-cook.png) bottom 0 right 30px no-repeat;
+}
+
+.container--tasty {
+	// width: 700px;
+	background: url(../img/tasty/tasty-cook.png) bottom 0 right 30px no-repeat;
+}
+
+.tasty__left {
+	width: 650px;
+}
+
+
+.section__title-head--tasty {
+	color: #2b2f5f;
+}
+
+.section__title-desc--tasty {
+	color: #747474;
+}
+
+.tasty__item {
+	@include inlineblock(middle);
+}
+
+.tasty__right {
+	width: 650px;
+}
+

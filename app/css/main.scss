@@ -1,0 +1,23 @@
+// vars
+$lightgrey: #575757;
+$grey: #414141;
+$white: #f6f6f6;
+$blue: #33c1e3;
+$red: #e85f61;
+
+// layout
+@import "_misc/normalize";
+@import "_misc/fonts";
+@import "_misc/mixins";
+@import "_misc/adjustment";
+
+// styles
+@import "sections/common";
+@import "sections/header";
+@import "sections/mainscreen";
+@import "sections/tasty";
+@import "sections/supply";
+@import "sections/team";
+@import "sections/questions";
+@import "sections/map";
+@import "sections/footer";

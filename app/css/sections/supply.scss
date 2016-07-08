@@ -1,0 +1,57 @@
+.supply {
+	background: linear-gradient(90deg, rgba(255, 170, 37, 0.9), rgba(253, 182, 7, 0.9)), url(../img/supply/pattern.png);
+	// @extend %clearfix;
+}
+
+.supply__title {
+	color: #393939;
+	text-align: center;
+}
+
+.supply__desc {
+	width: 790px;
+	margin: 0 auto;
+	color: #883213;
+	text-align: center;
+}
+
+.supply__list {
+	@extend %clearfix;
+}
+
+.supply__item {
+	float: left;
+	width: 25%;
+	margin: 0 0 65px 0;
+}
+
+.supply__box {
+	padding: 0 25px;
+}
+
+.supply__img {
+	width: 180px;
+	height: 180px;
+	margin: 0 auto 10px;
+	border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.supply__img-pic {
+	width: 100%;
+}
+
+.supply__name {
+	color: #393939;
+	font-size: 32px;
+	text-align: center;
+	margin: 0 0 10px 0;
+	@include malina();
+}
+
+.supply__text {
+	color: #ab594a;
+	font-size: 13px;
+	text-align: center;
+}
