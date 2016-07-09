@@ -16,14 +16,13 @@
 .section__title-desc--tasty {
 	color: #747474;
     max-width: 400px;
-    margin: 0 0 60px 0;
     font-size: 15px;
     line-height: 1.48;
 }
 
 .tasty__item {
 	width: 190px;
-	margin: 0 20px 20px 0;
+	margin: 0 10px 20px 0;
 	@include inlineblock(top);
 }
 
@@ -36,7 +35,7 @@
     &:before {
     content: '';
     position: absolute;
-    left: 10%;
+    left: 4%;
     bottom: 0;
     width: 90px;
     height: 90px;

@@ -462,17 +462,18 @@ html, body {
 
 .container--tasty {
   padding: 100px 0;
-  background: url(../img/tasty/tasty-cook.png) bottom 0 right 30px no-repeat;
+  background: url(../img/tasty/tasty-cook.png) bottom 0 right 20px no-repeat;
+  background: url(../img/tasty/tasty-cook.png) bottom 0 right 100px no-repeat;
 }
 
 .section__title {
-  margin: 0 0 50px 0;
+  margin: 0 0 57px 0;
   line-height: 1.125;
 }
 
 .section__title-head {
   font-size: 65px;
-  margin: 0 0 20px 0;
+  margin: 0 0 35px 0;
   font-family: 'als_malinaregular';
 }
 
@@ -697,14 +698,13 @@ html, body {
 .section__title-desc--tasty {
   color: #747474;
   max-width: 400px;
-  margin: 0 0 60px 0;
   font-size: 15px;
   line-height: 1.48;
 }
 
 .tasty__item {
   width: 190px;
-  margin: 0 20px 20px 0;
+  margin: 0 10px 20px 0;
   display: inline-block;
   vertical-align: top;
 }
@@ -719,7 +719,7 @@ html, body {
 .tasty__item-img:before {
   content: '';
   position: absolute;
-  left: 10%;
+  left: 4%;
   bottom: 0;
   width: 90px;
   height: 90px;

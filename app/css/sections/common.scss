@@ -15,17 +15,18 @@ html, body {
 
 .container--tasty {
 	padding: 100px 0;
-	background: url(../img/tasty/tasty-cook.png) bottom 0 right 30px no-repeat;
+	background: url(../img/tasty/tasty-cook.png) bottom 0 right 20px no-repeat;
+	background: url(../img/tasty/tasty-cook.png) bottom 0 right 100px no-repeat;
 }
 
 .section__title {
-	margin: 0 0 50px 0;
+	margin: 0 0 57px 0;
 	line-height: 1.125;
 }
 
 .section__title-head {
 	font-size: 65px;
-	margin: 0 0 20px 0;
+	margin: 0 0 35px 0;
 	@include malina();
 }
 
