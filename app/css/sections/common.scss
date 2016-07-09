@@ -13,6 +13,11 @@ html, body {
 	@extend %clearfix;
 }
 
+.container--tasty {
+	padding: 100px 0;
+	background: url(../img/tasty/tasty-cook.png) bottom 0 right 30px no-repeat;
+}
+
 .section__title {
 	margin: 0 0 50px 0;
 	line-height: 1.125;
@@ -20,6 +25,7 @@ html, body {
 
 .section__title-head {
 	font-size: 65px;
+	margin: 0 0 20px 0;
 	@include malina();
 }
 
