@@ -14,14 +14,18 @@ html, body {
 }
 
 .container--tasty {
-	padding: 100px 0;
+	padding: 0 70px;
 	background: url(../img/tasty/tasty-cook.png) bottom 0 right 20px no-repeat;
-	background: url(../img/tasty/tasty-cook.png) bottom 0 right 100px no-repeat;
+}
+
+.container--quest {
+	padding: 0 70px;
 }
 
 .section__title {
 	margin: 0 0 57px 0;
 	line-height: 1.125;
+	padding: 100px 0 0 0;
 }
 
 .section__title-head {

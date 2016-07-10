@@ -50,8 +50,9 @@
 }
 
 .nav__item {
-	@include inlineblock(middle);
+	letter-spacing: 1.5px;
 	position: relative;
+	@include inlineblock(middle);
 
 	&:hover {
 		.nav__dropdown {
