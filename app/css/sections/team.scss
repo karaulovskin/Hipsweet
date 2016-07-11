@@ -1,0 +1,140 @@
+.team {
+    background: radial-gradient(#fff,#ddd);
+}
+
+.team__header {
+	@extend %clearfix;
+}
+
+.team__header-left {
+	float: left;
+}
+
+.section__title-head--team {
+	color: #2b2f5f;
+	width: 350px;
+}
+
+.team__header-right {
+	float: right;
+}
+
+.team__nav-item {
+	width: 230px;
+	display: inline-block;
+    padding: 16px 27px 28px;
+    border-radius: 20px;
+}
+
+.team__nav-name {
+	color: #2b2f5f;
+	font-size: 30px;
+	line-height: 1.25;
+	margin: 0 0 10px 0;
+	@include malina();
+}
+
+.team__nav-desc {
+	color: #8d8d8d;
+	font-size: 16px;
+}
+
+.member {
+	position: relative;
+	@extend %clearfix;
+}
+
+.member__left {
+	width: 270px;
+	float: left;
+}
+
+.member__desc p {
+	padding-top: 40px;
+    color: #747474;
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.member__cock {
+    position: absolute;
+    bottom: 0;
+    left: 290px;
+    right: 390px;
+    height: 600px;
+}
+
+.member__img {
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.member__right {
+	width: 340px;
+	float: right;
+}
+
+.team__order {
+	margin: 0 0 117px 0;
+}
+
+.order {
+	width: 845px;
+	margin: 0 auto;
+	border-radius: 15px;
+	font-size: 0;
+	background: url(../img/team/choko-form.png) center no-repeat;
+}
+
+.order__title, .order__form {
+	@include inlineblock(middle);
+} 
+
+.order__title {
+	font-size: 64px;
+	color: #fff;
+	text-align: center;
+	width: 50%;
+	@include malina();
+}
+
+.order__form {
+	width: 50%;
+    padding: 65px 87px 70px 46px;
+    border-radius: 0 15px 15px 0;
+	background-color: rgba(43,33,33,.84);
+}
+
+.form {
+	width: 280px;
+}
+
+.form__input {
+	font-size: 16px;
+    border: none;
+    width: 100%;
+    padding: 3px 5px 18px;
+    border-bottom: 1px solid #fff;
+    background: none;
+    margin: 0 0 40px 0;
+}
+
+.checkbox__input {
+	height: 10px;
+	width: 10px;
+	border: 1px solid #2b0c08;
+	@include inlineblock(middle);
+}
+
+.checkbox__text {
+	font-size: 16px;
+	color: #fff;
+	margin: 0 0 0 10px;
+	@include inlineblock(middle);
+}

@@ -3,10 +3,6 @@
     background: radial-gradient(rgba(232, 83, 88, 0.95), rgba(165, 22, 27, 0.95) 90%), url(../img/decor/bg-faq.jpg) no-repeat;
 }
 
-.container--quest {
-	padding: 0 70px;
-}
-
 .quest__title {
 	font-size: 40px;
 	text-align: center;
@@ -20,6 +16,11 @@
 .accordeon__item {
 	list-style: decimal;
 	font-size: 22px;
+
+	&.active .accordeon__trigger h3 {
+		color: #ffb100;
+		border-bottom: none;
+	}
 }
 
 .accordeon__trigger {
@@ -36,6 +37,7 @@
 	font-size: 15px;
 	width: 810px;
 	margin: 0 0 0 40px;
+	display: none;
 }
 
 .accordeon__text p {
