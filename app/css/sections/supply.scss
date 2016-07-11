@@ -15,6 +15,10 @@
 	text-align: center;
 }
 
+.supply__desc-link {
+	text-decoration:underline;
+}
+
 .supply__list {
 	@extend %clearfix;
 }
@@ -33,13 +37,13 @@
 	width: 180px;
 	height: 180px;
 	margin: 0 auto 10px;
-	border-radius: 50%;
+	@include border-radius(50%);
     background: rgba(0, 0, 0, 0.1);
-	overflow: hidden;
 }
 
 .supply__img-pic {
 	width: 100%;
+	height: 100%;
 }
 
 .supply__name {

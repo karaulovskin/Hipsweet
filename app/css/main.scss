@@ -6,7 +6,7 @@ $blue: #33c1e3;
 $red: #e85f61;
 
 // layout
-@import "_misc/normalize";
+@import "../bower/normalize-css/normalize";
 @import "_misc/fonts";
 @import "_misc/mixins";
 @import "_misc/adjustment";

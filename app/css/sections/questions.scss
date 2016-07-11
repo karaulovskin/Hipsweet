@@ -1,6 +1,6 @@
 .quest {
 	color: #fff;
-    background: radial-gradient(rgba(232, 83, 88, 0.95), rgba(165, 22, 27, 0.95) 90%), url(../img/decor/bg-faq.jpg) no-repeat;
+    background: radial-gradient(rgba(232, 83, 88, 0.95), rgba(165, 22, 27, 0.95) 90%), url(../img/questions/bg-quest.jpg) no-repeat;
 }
 
 .quest__title {
@@ -16,6 +16,7 @@
 .accordeon__item {
 	list-style: decimal;
 	font-size: 22px;
+    cursor: pointer;
 
 	&.active .accordeon__trigger h3 {
 		color: #ffb100;

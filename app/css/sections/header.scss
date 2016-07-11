@@ -86,7 +86,7 @@
 	z-index: 1;
 	left: -9999px;
 	margin-top: 30px;
-	border-radius: 20px;
+	@include border-radius(20px);
 	opacity: .92;
 	// transition: .5s;
 	padding: 40px 48px;

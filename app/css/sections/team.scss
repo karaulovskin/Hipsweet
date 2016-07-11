@@ -87,8 +87,8 @@
 .order {
 	width: 845px;
 	margin: 0 auto;
-	border-radius: 15px;
 	font-size: 0;
+	@include border-radius(15px);
 	background: url(../img/team/choko-form.png) center no-repeat;
 }
 
@@ -107,12 +107,8 @@
 .order__form {
 	width: 50%;
     padding: 65px 87px 70px 46px;
-    border-radius: 0 15px 15px 0;
+    @include border-radius(0 15px 15px 0);
 	background-color: rgba(43,33,33,.84);
-}
-
-.form {
-	width: 280px;
 }
 
 .form__input {
