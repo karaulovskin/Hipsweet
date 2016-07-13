@@ -37,16 +37,16 @@
 								<aside class="sidebar">
 									<nav class="nav">
 										<ul class="nav__list">
-											<li class="nav__item">
+											<li class="nav__item nav__item--after">
 												<a href="about.html" class="nav__link nav__link--active">Сладости</a>
 											</li>
 											<li class="nav__item">
 												<a href="career.html" class="nav__link">Доставка</a>
 											</li>
-											<li class="nav__item">
+											<li class="nav__item nav__item--after">
 												<a href="portfolio.html" class="nav__link">Компания</a>
 											</li>
-											<li class="nav__item">
+											<li class="nav__item nav__item--after">
 												<a href="portfolio.html" class="nav__link">Команда</a>
 												<ul class="nav__dropdown">
 													<li class="nav__dropdown-item">
@@ -87,10 +87,10 @@
 
 								<ul class="controls">
 									<li class="controls__item">
-										<a href="#" class="controls__link">Office</a>
+										<a href="#" class="controls__link controls__link--office">Office</a>
 									</li>
 									<li class="controls__item">
-										<a href="#" class="controls__link">Search</a>
+										<a href="#" class="controls__link controls__link--search">Search</a>
 									</li>
 								</ul>
 
@@ -102,6 +102,11 @@
 							<ul class="slider__list">
 
 								<li class="slader__item">
+
+									<div class="slader__name">
+										<div class="slader__name-text">Пирожинка</div>
+									</div>
+
 									<div class="slader__box">
 
 										<div class="slader__ingredients">
@@ -139,10 +144,10 @@
 											<div class="section__title-desc section__title-desc--cupcake">
 												<p>В основе пирожного Sweet Cupcake выпеченый бисквит, промоченный сахарным сиропом с добавлением коньяка и десертного вина. Прослоено суфлейной массой, смешанной с апельсиновым концентратом (калоризатор). Заглазированно шоколадной глазурью с нанесением сеточки из белой шоколадной глазури.</p>
 											</div>
-
 											<div class="slader__description-price">
 												<div class="btn">
-													<a href="" class="btn__link">Заказать</a>
+													<span class="btn__price">199 ¤</span>
+													<a href="#" class="btn__link">Заказать</a>
 												</div>
 											</div>
 
@@ -150,9 +155,7 @@
 
 									</div>
 
-									<div class="slader__name">
-										<div class="slader__name-text">Пирожинка</div>
-									</div>
+					
 									
 								</li>
 
@@ -168,10 +171,10 @@
 
 						<div class="tasty-contant">
 							<div class="section__title">
-								<div class="section__title-head section__title-head--tasty">Почему так вкусно?</div>
-								<div class="section__title-desc section__title-desc--tasty">
+								<h2 class="section__title-head section__title-head--tasty">Почему так вкусно?</h2>
+								<p class="section__title-desc section__title-desc--tasty">
 									В основе пирожного Sweet Cupcake выпеченный бисквит, промоченный сахорным сиропом с добавлением коньяка и десертного вина. Прослоено суфлейной массой, смешанный с апельсиновым концентратом (калоризатор). Заглазированно шоколадной глазурью с нанесением сеточки из белой шоколадной глазури.
-								</div>
+								</p>
 							</div>
 							
 							<ul class="tasty__list">
@@ -210,14 +213,14 @@
 					<div class="container">
 
 						<div class="section__title">
-							<div class="section__title-head supply__title">
+							<h2 class="section__title-head supply__title">
 								Мы поставляем
-							</div>
-							<div class="section__title-desc supply__desc">
+							</h2>
+							<p class="section__title-desc supply__desc">
 								Также мы делаем выпечку под заказ для различных праздников и банкетов. Заказать индивидуальную выпечку вы можете заполнив
 								<a href="#order-form" class="supply__desc-link">форму</a>.
 								После с Вами свяжется один из наших поваров и обсудит заказ более детально.
-							</div>
+							</p>
 						</div>
 						
 						<ul class="supply__list">
@@ -229,9 +232,9 @@
 									<div class="supply__name">
 										Торты
 									</div>
-									<div class="supply__text">
+									<p class="supply__text">
 										Десерт, состоящий из одного или нескольких коржей, пропитанных кремом или джемом. Сверху торт обычно украшают кремом, глазурью или фруктами
-									</div>
+									</p>
 								</div>
 							</li>
 							<li class="supply__item">
@@ -242,9 +245,9 @@
 									<div class="supply__name">
 										Печенье
 									</div>
-									<div class="supply__text">
+									<p class="supply__text">
 										Десерт, состоящий из одного или нескольких коржей, пропитанных кремом или джемом. Сверху торт обычно украшают кремом, глазурью или фруктами
-									</div>
+									</p>
 								</div>
 							</li>
 							<li class="supply__item">
@@ -255,9 +258,9 @@
 									<div class="supply__name">
 										Пончики
 									</div>
-									<div class="supply__text">
+									<p class="supply__text">
 										Десерт, состоящий из одного или нескольких коржей, пропитанных кремом или джемом. Сверху торт обычно украшают кремом, глазурью или фруктами
-									</div>
+									</p>
 								</div>
 							</li>
 							<li class="supply__item">
@@ -268,9 +271,9 @@
 									<div class="supply__name">
 										Рулеты
 									</div>
-									<div class="supply__text">
+									<p class="supply__text">
 										Десерт, состоящий из одного или нескольких коржей, пропитанных кремом или джемом. Сверху торт обычно украшают кремом, глазурью или фруктами
-									</div>
+									</p>
 								</div>
 							</li>
 							<li class="supply__item">
@@ -278,12 +281,12 @@
 									<div class="supply__img">
 										<img src="img/supply/prod/zephyr.png" alt="" class="supply__img-pic">
 									</div>
-									<div class="supply__name">
+									<h3 class="supply__name">
 										Зефир
-									</div>
-									<div class="supply__text">
+									</h3>
+									<p class="supply__text">
 										Десерт, состоящий из одного или нескольких коржей, пропитанных кремом или джемом. Сверху торт обычно украшают кремом, глазурью или фруктами
-									</div>
+									</p>
 								</div>
 							</li>
 							<li class="supply__item">
@@ -291,12 +294,12 @@
 									<div class="supply__img">
 										<img src="img/supply/prod/chocolate.png" alt="" class="supply__img-pic">
 									</div>
-									<div class="supply__name">
+									<h3 class="supply__name">
 										Шоколад
-									</div>
-									<div class="supply__text">
+									</h3>
+									<p class="supply__text">
 										Десерт, состоящий из одного или нескольких коржей, пропитанных кремом или джемом. Сверху торт обычно украшают кремом, глазурью или фруктами
-									</div>
+									</p>
 								</div>
 							</li>
 							<li class="supply__item">
@@ -304,12 +307,12 @@
 									<div class="supply__img">
 										<img src="img/supply/prod/cream-cake.png" alt="" class="supply__img-pic">
 									</div>
-									<div class="supply__name">
+									<h3 class="supply__name">
 										Пирожные
-									</div>
-									<div class="supply__text">
+									</h3>
+									<p class="supply__text">
 										Десерт, состоящий из одного или нескольких коржей, пропитанных кремом или джемом. Сверху торт обычно украшают кремом, глазурью или фруктами
-									</div>
+									</p>
 								</div>
 							</li>
 							<li class="supply__item">
@@ -317,12 +320,12 @@
 									<div class="supply__img">
 										<img src="img/supply/prod/candy.png" alt="" class="supply__img-pic">
 									</div>
-									<div class="supply__name">
+									<h3 class="supply__name">
 										Конфеты
-									</div>
-									<div class="supply__text">
+									</h3>
+									<p class="supply__text">
 										Десерт, состоящий из одного или нескольких коржей, пропитанных кремом или джемом. Сверху торт обычно украшают кремом, глазурью или фруктами
-									</div>
+									</p>
 								</div>
 							</li>
 						</ul>
@@ -336,43 +339,50 @@
 						<div class="section__title">
 							<div class="team__header">
 								<div class="team__header-left">
-									<div class="section__title-head section__title-head--team">
+									<h2 class="section__title-head section__title-head--team">
 										Наша команда
-									</div>
+									</h2>
 								</div>	
 								<div class="team__header-right">
 									<ul class="team__nav-list">
-										<li class="team__nav-item">
-											<div class="team__nav-name">
-												Тони Ройстер
-											</div>
-											<div class="team__nav-desc">
-												Главный шеф повар
-											</div>
+										<li class="team__nav-item team__nav-item--active">
+											<a class="team__nav-link">
+												<div class="team__nav-name">
+													Тони Ройстер
+												</div>
+												<div class="team__nav-desc">
+													Главный шеф повар
+												</div>
+											</a>
 										</li>
 										<li class="team__nav-item">
-											<div class="team__nav-name">
-												Ричард Джейс
-											</div>
-											<div class="team__nav-desc">
-												Главный кондитер
-											</div>
+											<a class="team__nav-link">
+												<div class="team__nav-name">
+													Ричард Джейс
+												</div>
+												<div class="team__nav-desc">
+													Главный кондитер
+												</div>
+											</a>
 										</li>
 										<li class="team__nav-item">
-											<div class="team__nav-name">
-												Майти Модстер
-											</div>
-											<div class="team__nav-desc">
-												Дегустатор
-											</div>
+											<a class="team__nav-link">
+												<div class="team__nav-name">
+													Майти Модстер
+												</div>
+												<div class="team__nav-desc">
+													Дегустатор
+												</div>
+											</a>
 										</li>
 									</ul>
 								</div>
 							</div>	
 						</div>
 						
-						<div class="team__content">
-							<div class="member">
+						<ul class="team__content">
+
+							<li class="member member--active">
 								<div class="member__left">
 									<div class="member__desc">
 										<p>
@@ -396,8 +406,62 @@
 										</p>
 									</div>
 								</div>
-							</div>
-						</div>
+							</li>
+
+							<li class="member">
+								<div class="member__left">
+									<div class="member__desc">
+										<p>
+											Ричард родился в Ленинграде в 1985 году. Учился в Морском техническом колледже по специальности «судовой повар». В кулинарную жизнь окунулся в 2005, когда попал к Фабрицио Фатуччи (ресторан Sculptors) и стал его правой рукой. Нередко они вместе лично обслуживали Президента России Дмитрия Медведева на открытых и закрытых мероприятия.
+										</p>
+										<p>
+											Ричард неоднократно посещал Италию, где изучил местную гастрономию и набрался опыта.
+										</p>
+									</div>	
+								</div>
+								<div class="member__cock">
+									<img src="/img/team/cock-team.png" alt="" class="member__img">
+								</div>
+								<div class="member__right">
+									<div class="member__desc">
+										<p>
+											Главный кондитер является постоянным участником различных номинаций и фестивалей: выступал в Париже на мировом фестивале Omnivore Paris в команде с Иваном Березуцким; представлял Россию на неделе русской кухни в Эстонии; регулярно участвовал в «Мадрид Фьюжн», съезде шеф-поваров со всего мира, где представляются новые гастрономические техники. В 2012 г. на Экономическом форуме обеспечивал работу кухни для высокопоставленных лиц. Не так давно был участником экспедиции на Белое море, где узнал все о региональных продуктах и особенностях кухни. В 2013 участвовал в фестивале «Северная кухня»; выезжал на гастроли в Москву, открывая «pop-up» проект DOOR 19.
+										</p>
+										<p>
+											Ричард занимается развитием и инновациями в русской гастрономии, а также увлекается искусством — пишет картины.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="member">
+								<div class="member__left">
+									<div class="member__desc">
+										<p>
+											Майти родился в Ленинграде в 1985 году. Учился в Морском техническом колледже по специальности «судовой повар». В кулинарную жизнь окунулся в 2005, когда попал к Фабрицио Фатуччи (ресторан Sculptors) и стал его правой рукой. Нередко они вместе лично обслуживали Президента России Дмитрия Медведева на открытых и закрытых мероприятия.
+										</p>
+										<p>
+											Майти неоднократно посещал Италию, где изучил местную гастрономию и набрался опыта.
+										</p>
+									</div>	
+								</div>
+								<div class="member__cock">
+									<img src="/img/team/cock-team.png" alt="" class="member__img">
+								</div>
+								<div class="member__right">
+									<div class="member__desc">
+										<p>
+											Дегустатор является постоянным участником различных номинаций и фестивалей: выступал в Париже на мировом фестивале Omnivore Paris в команде с Иваном Березуцким; представлял Россию на неделе русской кухни в Эстонии; регулярно участвовал в «Мадрид Фьюжн», съезде шеф-поваров со всего мира, где представляются новые гастрономические техники. В 2012 г. на Экономическом форуме обеспечивал работу кухни для высокопоставленных лиц. Не так давно был участником экспедиции на Белое море, где узнал все о региональных продуктах и особенностях кухни. В 2013 участвовал в фестивале «Северная кухня»; выезжал на гастроли в Москву, открывая «pop-up» проект DOOR 19.
+										</p>
+										<p>
+											Майти занимается развитием и инновациями в русской гастрономии, а также увлекается искусством — пишет картины.
+										</p>
+									</div>
+								</div>
+							</li>
+
+
+						</ul>
 
 						<div class="team__order">
 							<div class="order">
@@ -413,6 +477,7 @@
 											<input type="text" class="checkbox__input">
 											<span class="checkbox__text">Заказать обратный звонок</span>
 										</label>
+										<button class="form__submit" type="button" title="Отправить форму"></button>
 									</form>
 								</div>
 							</div>
@@ -425,7 +490,7 @@
 					<div class="container container--quest">
 
 						<div class="section__title">
-							<div class="quest__title">Часто задаваемые вопросы</div>
+							<h2 class="quest__title">Часто задаваемые вопросы</h2>
 						</div>
 
 						<div class="accordeon">

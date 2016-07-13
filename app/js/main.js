@@ -11,6 +11,29 @@
 	});
 
 
+	// TABS
+	$('.team__nav-item').on('click', function(e){
+
+		var
+			$this = $(this);
+			member = $('.member');
+			ndx = $this.index();
+
+		console.log(ndx);
+
+		$this
+			.addClass('team__nav-item--active')
+			.siblings()
+			.removeClass('team__nav-item--active');
+
+		member.eq(ndx)
+			.addClass('member--active')
+			.siblings()
+			.removeClass('member--active');
+
+	});
+
+
 
 	// ACCORDION
 	$('.accordeon__trigger').on('click', function(e){

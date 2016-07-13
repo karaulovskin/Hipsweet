@@ -11,6 +11,22 @@
 	position: relative;
 }
 
+.slader__name {
+	position: absolute;
+    right: 0;
+    left: 0;
+    top: 20%;
+}
+
+.slader__name-text {
+	font-size: 150px;
+	color: #fff;
+	text-align: center;
+	opacity: .1;
+    text-transform: uppercase;
+	@include malina();
+}
+
 .slader__box {
 	@extend %clearfix;
 }
@@ -40,26 +56,28 @@
 	padding: 20px 0 0 0;
 }
 
+.btn__price {
+    margin: 0 40px 0 0;
+    font-size: 62px;
+    @include malina();
+    @include inlineblock(middle);
+}
+
+.btn__link {
+	font-size: 14px;
+    font-weight: bold;
+    padding: 12px 22px;
+    background: #fca211;
+    color: #a4151c;
+    @include border-radius(50px)
+    @include transition(.25s);
+    @include inlineblock(middle);
+}
+
 .section__title-head--cupcake {
 	color: #fff;
 }
 
 .section__title-desc--cupcake {
 	color: #fff;
-}
-
-.slader__name {
-	position: absolute;
-    right: 0;
-    left: 0;
-    top: 35%;
-}
-
-.slader__name-text {
-	font-size: 150px;
-	color: #fff;
-	text-align: center;
-	opacity: .1;
-    text-transform: uppercase;
-	@include malina();
 }

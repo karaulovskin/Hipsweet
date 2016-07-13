@@ -17,6 +17,13 @@
 	transform: $rotate;
 }
 
+@mixin transition($tr) {
+	-webkit-transition: $tr;
+	-moz-transition: $tr;
+	-o-transition: $tr;
+	transition: $tr;
+}	
+
 %clearfix {
 	&:after {
 		content: "";
