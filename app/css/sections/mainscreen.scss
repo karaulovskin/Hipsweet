@@ -7,18 +7,18 @@
   height: 640px;
 }
 
-.slader__item {
+.slider__item {
 	position: relative;
 }
 
-.slader__name {
+.slider__name {
 	position: absolute;
     right: 0;
     left: 0;
     top: 20%;
 }
 
-.slader__name-text {
+.slider__name-text {
 	font-size: 150px;
 	color: #fff;
 	text-align: center;
@@ -27,30 +27,34 @@
 	@include malina();
 }
 
-.slader__box {
+.slider__inner {
 	@extend %clearfix;
 }
 
-.slader__ingredients, .slader__product {
+.slider__col {
 	float: left;
 }
 
-.slader__ingredients {
+.slider__settings {
 	width: 170px;
 	color: #fff;
 	padding: 85px 0 0 0;
 }
 
-.slader__ingredients-item:first-child {
+.slider__settings-row:first-child {
 	margin: 0 0 200px 0;
 }
 
-.slader__product {
+.ingredients {
+    color: inherit;
+}
+
+.slider__pic {
 	width: 490px;
 }
 
-.slader__description {
-	float: right;
+.slider__desc {
+	// float: right;
 	width: 400px;
 	color: #fff;
 	padding: 20px 0 0 0;

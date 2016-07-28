@@ -3,7 +3,7 @@
 	@extend %clearfix;
 }
 
-.header-left {
+.header-logo {
 	float: left;
 	width: 35%;
 }
@@ -17,7 +17,7 @@
 	left: -9999px;
 }
 
-.header-right {
+.header-menu {
 	float: right;
 	width: 65%;
 	@extend %clearfix;
@@ -59,17 +59,17 @@
 		.nav__link {
 			color: #ffb100;
 		}
-		
-		.nav__item--after {
 
+		.nav__link--after {
+			
 			&:after {
 				border-left: 1px solid #ffb100;
 				border-top: 1px solid #ffb100;
-			    transform: rotate(225deg);
-			   
+			    transform: rotate(45deg);
+			    margin: 5px 0px 3px 6px;
 			}
 		}
-
+		
 		.nav__dropdown {
 			left: 50%;
 			margin-left: -114px;
@@ -78,7 +78,12 @@
 	}
 }
 
-.nav__item--after {
+.nav__link {
+	color: #fff;
+	@include transition(.3s);
+}
+
+.nav__link--after {
 
 	&:after {
 		content: "";
@@ -89,13 +94,11 @@
 	    transform: rotate(225deg);
 	    margin: 0 0px 3px 6px;
 	    @include inlineblock(middle);
+	    @include transition(.3s);
 	}
 }
 
-.nav__link {
-	color: #fff;
-	@include transition(.25s);
-}
+
 
 .triangle {
 	width: 40px;
@@ -119,6 +122,7 @@
 	opacity: .92;
 	padding: 40px 48px;
 	@include border-radius(20px)
+	@include transition(.3s);
 
 	&:before {
 		content: "";
@@ -158,43 +162,51 @@
 }
 
 .controls {
-	margin-top: 25px;
+	margin-top: 15px;
 	float: right;
 	@extend %clearfix;
 }
 
 .controls__item {
-	width: 25px;
-	height: 25px;
-	margin: 0 0 0 10px;
+	margin: 0 0 0 20px;
 	@include inlineblock(middle);
-}
 
-.controls__item:first-child {
-	margin: 0;
-}
-
-.controls__link {
-	display: block;
-	text-indent: -9999px;
-	height: 100%;
-	width: 100%;
-
-	&:after {
-		content:"";
-	    width: 38px;
-	    height: 38px;
-	    padding: 0;
-	    color: #fff;
-	    opacity: .1;
-	    border-radius: 50%;
-	    background: rgba(255, 255, 255, 0.15);
-	    font-weight: normal;
+	&:first-child {
+		margin: 0;
 	}
 }
 
+.controls__link {
+ 	width: 42px;
+ 	height: 42px;
+ 	display: block;
+ 	text-indent: -9999px;
+ 	position: relative;
+ 	background: rgba(255, 255, 255, 0.15);
+ 	@include border-radius(50%);
+ 	@include transition(.3s);
+
+ 	&:hover {
+ 		background: rgba(255, 175, 40, 0.7);
+ 	}
+
+	&:after {
+		content:"";
+		display: block;
+	    height: 19px;
+    	width: 19px;
+    	position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    margin: auto;
+	}
+
+}
+
 @each $control in (office, search) {
-	.controls__link--#{$control} {
+	.controls__link--#{$control}:after {
 		background: url('../img/header/#{$control}.png') no-repeat;
 	}
 }

@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 	<meta name="viewport" content="width=device-width">
 
+	<link rel="stylesheet" href="bower/bxslider-4/dist/jquery.bxslider.css">
 	<link rel="stylesheet" href="css/main.css">
 	
 	<script src="http://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
@@ -19,35 +20,31 @@
 		<div class="maincontent">
 
 				<section class="mainscreen section">
-					<div class="container">
-						
-						<header class="header">
+					<header class="header">
+						<div class="container">
 
-							<div class="header-left">
-
+							<div class="header-logo">
 								<a class="logo" href="/">
 									<img src="img/header/logo.png" alt="logo" class="logo-img">
 									<span class="logo-text">Hipsweet</span>
 								</a>
-
 							</div>
 
-							<div class="header-right">
-								
+							<div class="header-menu">
 								<aside class="sidebar">
 									<nav class="nav">
 										<ul class="nav__list">
-											<li class="nav__item nav__item--after">
-												<a href="about.html" class="nav__link nav__link--active">Сладости</a>
+											<li class="nav__item">
+												<a href="about.html" class="nav__link nav__link--after">Сладости</a>
 											</li>
 											<li class="nav__item">
 												<a href="career.html" class="nav__link">Доставка</a>
 											</li>
-											<li class="nav__item nav__item--after">
-												<a href="portfolio.html" class="nav__link">Компания</a>
+											<li class="nav__item">
+												<a href="portfolio.html" class="nav__link nav__link--after">Компания</a>
 											</li>
-											<li class="nav__item nav__item--after">
-												<a href="portfolio.html" class="nav__link">Команда</a>
+											<li class="nav__item">
+												<a href="portfolio.html" class="nav__link nav__link--after">Команда</a>
 												<ul class="nav__dropdown">
 													<li class="nav__dropdown-item">
 														<a href="" class="nav__dropdown-link">
@@ -93,50 +90,47 @@
 										<a href="#" class="controls__link controls__link--search">Search</a>
 									</li>
 								</ul>
-
 							</div>
 
-						</header>
+						</div>
+					</header>
+					<div class="container">
 
 						<div class="slider">
 							<ul class="slider__list">
 
-								<li class="slader__item">
+								<li class="slider__item">
 
-									<div class="slader__name">
-										<div class="slader__name-text">Пирожинка</div>
+									<div class="slider__name">
+										<div class="slider__name-text">
+											Пирожинка
+										</div>
 									</div>
 
-									<div class="slader__box">
+									<div class="slider__inner">
 
-										<div class="slader__ingredients">
+										<div class="slider__col slider__settings">
 
-												<div class="slader__ingredients-item">
-													<div class="slader__ingredients-text">Ингредиенты</div>
-								     				<ul class="slader__ingredients_dropdown">
-														<li class="slader__ingredients_dropdown-item"></li>
-														<li class="slader__ingredients_dropdown-item"></li>
-														<li class="slader__ingredients_dropdown-item"></li>
-														<li class="slader__ingredients_dropdown-item"></li>
-														<li class="slader__ingredients_dropdown-item"></li>
-													</ul>
+												<div class="slider__settings-row">
+													<a href="" class="ingredients">
+														
+														<div class="slider__ingredients-text">Ингредиенты</div>
+													</a>
 												</div>
 
-												<div class="slader__ingredients-item">
-													<div class="slader__ingredients-storage">Срок хранения:</div>
-													<div class="slader__ingredients-time">120 часов</div>
+												<div class="slider__settings-row">
+													<div class="slider__ingredients-storage">Срок хранения:</div>
+													<div class="slider__ingredients-time">120 часов</div>
 												</div>
-
 										</div>
 
-										<div class="slader__product">
+										<div class="slider__col slider__pic">
 
-											<img src="img/mainscreen/cupcake/cupcake.png" alt="logo" class="slader__product-cake">
+											<img src="img/mainscreen/cupcake/cupcake.png" alt="logo" class="slider__pic-cake">
 											<span class="logo-text">Hipsweet</span>
-
 										</div>
 
-										<div class="slader__description section__title">
+										<div class="slider__col slider__desc section__title">
 
 											<div class="section__title-head section__title-head--cupcake">
 												<p>Sweet Cupcake</p>
@@ -144,21 +138,17 @@
 											<div class="section__title-desc section__title-desc--cupcake">
 												<p>В основе пирожного Sweet Cupcake выпеченый бисквит, промоченный сахарным сиропом с добавлением коньяка и десертного вина. Прослоено суфлейной массой, смешанной с апельсиновым концентратом (калоризатор). Заглазированно шоколадной глазурью с нанесением сеточки из белой шоколадной глазури.</p>
 											</div>
-											<div class="slader__description-price">
+											<div class="slider__description-price">
 												<div class="btn">
 													<span class="btn__price">199 ¤</span>
 													<a href="#" class="btn__link">Заказать</a>
 												</div>
 											</div>
-
 										</div>
 
 									</div>
-
-					
 									
 								</li>
-
 
 							</ul>
 						</div>
@@ -172,9 +162,11 @@
 						<div class="tasty-contant">
 							<div class="section__title">
 								<h2 class="section__title-head section__title-head--tasty">Почему так вкусно?</h2>
-								<p class="section__title-desc section__title-desc--tasty">
-									В основе пирожного Sweet Cupcake выпеченный бисквит, промоченный сахорным сиропом с добавлением коньяка и десертного вина. Прослоено суфлейной массой, смешанный с апельсиновым концентратом (калоризатор). Заглазированно шоколадной глазурью с нанесением сеточки из белой шоколадной глазури.
-								</p>
+								<div class="section__title-desc section__title-desc--tasty">
+									<p>
+										В основе пирожного Sweet Cupcake выпеченный бисквит, промоченный сахорным сиропом с добавлением коньяка и десертного вина. Прослоено суфлейной массой, смешанный с апельсиновым концентратом (калоризатор). Заглазированно шоколадной глазурью с нанесением сеточки из белой шоколадной глазури.
+									</p>
+								</div>
 							</div>
 							
 							<ul class="tasty__list">
@@ -216,11 +208,13 @@
 							<h2 class="section__title-head supply__title">
 								Мы поставляем
 							</h2>
-							<p class="section__title-desc supply__desc">
-								Также мы делаем выпечку под заказ для различных праздников и банкетов. Заказать индивидуальную выпечку вы можете заполнив
-								<a href="#order-form" class="supply__desc-link">форму</a>.
-								После с Вами свяжется один из наших поваров и обсудит заказ более детально.
-							</p>
+							<div class="section__title-desc supply__desc">
+								<p>
+									Также мы делаем выпечку под заказ для различных праздников и банкетов. Заказать индивидуальную выпечку вы можете заполнив
+									<a href="#order-form" class="supply__desc-link">форму</a>.
+									После с Вами свяжется один из наших поваров и обсудит заказ более детально.
+								</p>
+							</div>
 						</div>
 						
 						<ul class="supply__list">
@@ -229,9 +223,9 @@
 									<div class="supply__img">
 										<img src="img/supply/prod/cakes.png" alt="" class="supply__img-pic">
 									</div>
-									<div class="supply__name">
+									<h3 class="supply__name">
 										Торты
-									</div>
+									</h3>
 									<p class="supply__text">
 										Десерт, состоящий из одного или нескольких коржей, пропитанных кремом или джемом. Сверху торт обычно украшают кремом, глазурью или фруктами
 									</p>
@@ -242,9 +236,9 @@
 									<div class="supply__img">
 										<img src="img/supply/prod/cookies.png" alt="" class="supply__img-pic">
 									</div>
-									<div class="supply__name">
+									<h3 class="supply__name">
 										Печенье
-									</div>
+									</h3>
 									<p class="supply__text">
 										Десерт, состоящий из одного или нескольких коржей, пропитанных кремом или джемом. Сверху торт обычно украшают кремом, глазурью или фруктами
 									</p>
@@ -255,9 +249,9 @@
 									<div class="supply__img">
 										<img src="img/supply/prod/donut.png" alt="" class="supply__img-pic">
 									</div>
-									<div class="supply__name">
+									<h3 class="supply__name">
 										Пончики
-									</div>
+									</h3>
 									<p class="supply__text">
 										Десерт, состоящий из одного или нескольких коржей, пропитанных кремом или джемом. Сверху торт обычно украшают кремом, глазурью или фруктами
 									</p>
@@ -268,9 +262,9 @@
 									<div class="supply__img">
 										<img src="img/supply/prod/rolls.png" alt="" class="supply__img-pic">
 									</div>
-									<div class="supply__name">
+									<h3 class="supply__name">
 										Рулеты
-									</div>
+									</h3>
 									<p class="supply__text">
 										Десерт, состоящий из одного или нескольких коржей, пропитанных кремом или джемом. Сверху торт обычно украшают кремом, глазурью или фруктами
 									</p>
@@ -347,32 +341,32 @@
 									<ul class="team__nav-list">
 										<li class="team__nav-item team__nav-item--active">
 											<a class="team__nav-link">
-												<div class="team__nav-name">
+												<h3 class="team__nav-name">
 													Тони Ройстер
-												</div>
-												<div class="team__nav-desc">
+												</h3>
+												<p class="team__nav-desc">
 													Главный шеф повар
-												</div>
+												</p>
 											</a>
 										</li>
 										<li class="team__nav-item">
 											<a class="team__nav-link">
-												<div class="team__nav-name">
+												<h3 class="team__nav-name">
 													Ричард Джейс
-												</div>
-												<div class="team__nav-desc">
+												</h3>
+												<p class="team__nav-desc">
 													Главный кондитер
-												</div>
+												</p>
 											</a>
 										</li>
 										<li class="team__nav-item">
 											<a class="team__nav-link">
-												<div class="team__nav-name">
+												<h3 class="team__nav-name">
 													Майти Модстер
-												</div>
-												<div class="team__nav-desc">
+												</h3>
+												<p class="team__nav-desc">
 													Дегустатор
-												</div>
+												</p>
 											</a>
 										</li>
 									</ul>
@@ -465,9 +459,9 @@
 
 						<div class="team__order">
 							<div class="order">
-								<div class="order__title">
+								<h3 class="order__title">
 									Закажи сейчас
-								</div>
+								</h3>
 								<div class="order__form">
 									<form class="form" id="order-form">
 										<input type="text" class="form__input" placeholder="Введите ваше имя">
@@ -513,7 +507,7 @@
 								<li class="accordeon__item">
 									<div class="accordeon__trigger">
 										<h3>
-											Сколько по времени курьер доставляет заказ
+											Если курьер опоздал, будут ли какие то бонусы?
 										</h3>
 									</div>
 									<div class="accordeon__text">
@@ -528,7 +522,22 @@
 								<li class="accordeon__item">
 									<div class="accordeon__trigger">
 										<h3>
-											Сколько по времени курьер доставляет заказ
+											Добавляете ли вы какие либо консерванты в вашу продукцию?
+										</h3>
+									</div>
+									<div class="accordeon__text">
+										<p>
+											В античное время и средние века курьерами называли посыльных, конных гонцов, доставлявших секретную и дипломатическую почту. ”аковой, например, была введенная в Римской империи Августом государственная курьерская служба, называвшаяся cursus publicus.
+										</p>
+										<p>
+											В допетровской России рассыльные (гонцы) были служилыми людьми, «по прибору» и содержались за счет государственной казны. Особая курьерская почтовая служба была основана в 1701 году Петром I на Смоленском и Архангельском трактах для доставки чрезвычайных скорых посылок с царскими грамотами. Военных посыльных называют фельдъегерями, (начиная с середины XVIII века), а доставляющих дипломатическую почту — дипкурьерами.
+										</p>
+									</div>
+								</li>
+								<li class="accordeon__item">
+									<div class="accordeon__trigger">
+										<h3>
+											Как долго готовиться у вас индивидуальный торт?
 										</h3>
 									</div>
 									<div class="accordeon__text">
@@ -550,8 +559,9 @@
 				<section class="map-block" id="map">
 
 				</section>
-
-				<footer class="footer">
+		</div>
+	</div>
+	<footer class="footer">
 					<div class="container">
 
 						<div class="footer-block footer__logo">
@@ -602,12 +612,12 @@
 						</div>
 
 					</div>
-				</footer>
-		</div>
-	</div>	
+	</footer>	
 
 	
 	<script src="bower/jquery/jquery.js"></script>
+	<script src="bower/bxslider-4/dist/jquery.bxslider.min.js"></script>
+
 	<script src="js/main.js"></script>
 </body>
 </html>

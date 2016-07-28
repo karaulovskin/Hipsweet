@@ -1,0 +1,24 @@
+.bx-wrapper {
+    box-shadow: none;
+    border: none; 
+    background: none;
+}
+
+.bx-controls-direction {
+	display: none;
+}
+
+.bx-pager-item {
+    margin: 0 0 0 32px;
+
+    &:first-child {
+		margin: 0;
+	}
+}
+
+.bx-pager-link {
+	background: #fff !important;
+	width: 8px !important;
+    height: 8px !important;
+    margin: 0 !important;
+}

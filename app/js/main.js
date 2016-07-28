@@ -1,5 +1,13 @@
 (function () {
 
+	// SLIDER 
+	$(document).ready(function(){
+
+  		$('.slider__list').bxSlider({
+  			speed : 1500
+  		});
+	});
+
 
 	// SCROLL
 	$("[href='#order-form']").click(function () {
